@@ -1,0 +1,4 @@
+str=list('afZ_r9VYfScOeO_UL^RWUc')
+
+ans=[chr(ord(item)+5+index) for index,item in enumerate(str)]
+print(''.join(ans))
